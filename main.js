@@ -54,7 +54,7 @@ $(function () {
 				},
 				tooltip: {
 					headerFormat: '',
-					pointFormat: '{point.name}<br />Gun rate: {point.x}% <br />Suicide Rate: {point.y}'
+					pointFormat: '{point.name}<br />Gun ownership rate: {point.x}% <br />Suicide Rate: {point.y}'
 
 				}
 			}
