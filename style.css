@@ -1,22 +1,30 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+/* Start your base/mobile styles here */
+
 #container {
-  height: 500px;
-  min-width: 310px;
+  height: 700px;
+  min-width: 510px;
   max-width: 800px;
   margin: 0 auto;
 }
 
 #container1 {
-  height: 500px;
+  height: 700px;
   min-width: 310px;
   max-width: 800px;
   margin: 0 auto;
 }
 
 #container2 {
-  height: 500px;
+  height: 700px;
   min-width: 310px;
   max-width: 800px;
   margin: 0 auto;
+}
+
+#text {
+  margin: 10px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .loading {
@@ -24,3 +32,10 @@
   text-align: center;
   color: gray;
 }
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {
+  /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+  @media(min-width: 1000px) {
+    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
