@@ -1,45 +1,44 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 /* Start your base/mobile styles here */
 
+* {
+  box-sizing: border-box;
+}
+
 #container {
   height: 700px;
-  min-width: 510px;
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 #container1 {
   height: 700px;
-  min-width: 310px;
-  max-width: 800px;
-  margin: 0 auto;
 }
 
 #container2 {
   height: 700px;
-  min-width: 310px;
-  max-width: 800px;
+}
+
+h1, h2, #text {
+  max-width: 700px;
   margin: 0 auto;
+  padding: 5px;
+  display: block;
 }
 
 #text {
-  margin: 20px;
   font-family: 'Nunito Sans', sans-serif;
   opacity: 0.9;
-  max-width: 100%;
 }
 
 h1 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: bold;
-  margin: 20px;
+  margin-top: 15px;
 }
 
 h2 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: bold;
   font-style: italic;
-  margin: 20px;
   font-size: 14px;
 }
 
@@ -55,7 +54,17 @@ img {
 
 /* Tablet/Desktop overrides */
 
-@media(min-width: 681px) {
-  /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
-  @media(min-width: 1000px) {
-    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+@media(min-width: 681px) {}
+
+/* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+
+@media(min-width: 1000px) {
+  #container1 {
+    height: 500px;
+  }
+  #container2 {
+    height: 500px;
+  }
+}
+
+/* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */

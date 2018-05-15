@@ -62,6 +62,7 @@ $(function () {
 		series: [{
 			// abbrev: { abbrev },
 			color: 'rgba(223, 83, 83, .5)',
+			name: "State",
 
 
 
