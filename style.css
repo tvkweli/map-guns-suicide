@@ -25,6 +25,22 @@
 #text {
   margin: 10px;
   font-family: 'Nunito Sans', sans-serif;
+  margin: 10px;
+  opacity: 0.9;
+}
+
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  margin: 10px;
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px;
+  font-size: 14px;
 }
 
 .loading {
